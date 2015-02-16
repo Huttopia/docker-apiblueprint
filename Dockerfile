@@ -16,7 +16,7 @@ RUN apt-get update -qq \
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 # Install snowcrash
-RUN git clone --recursive git://github.com/huttopia/snowcrash.git /opt/snowcrash
+RUN git clone --recursive git://github.com/huttopia/snowcrash.git /opt/snowcrash \
     && cd /opt/snowcrash \
     && ./configure \
     && make install
