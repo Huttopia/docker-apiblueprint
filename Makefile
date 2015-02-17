@@ -16,4 +16,4 @@ build:
 	@docker build --tag=huttopia/apiblueprint:latest .
 
 bash:
-	@docker run --rm -it --name huttosoft-apiblueprint huttopia/apiblueprint:latest bash
+	@docker run --rm -it --name huttopia-apiblueprint huttopia/apiblueprint:latest bash
